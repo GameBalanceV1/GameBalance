@@ -1,0 +1,112 @@
+/* Reset default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #002d3b;
+    color: #fff;
+}
+
+header {
+    background-color: #003e4e;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+main {
+    padding: 40px;
+}
+
+.hero {
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px;
+    color: #fff;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.feature {
+    text-align: center;
+    max-width: 300px;
+}
+
+.feature h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 16px;
+    color: #ccc;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.pricing {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.pricing h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.pricing-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.pricing-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #003e4e;
+    padding: 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.pricing-button:hover {
+    background-color: #0099b8;
+}
+
+.pricing-price {
+    font-size: 14px;
+    color: #ccc;
+    margin-top: 10px;
+}
